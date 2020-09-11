@@ -1,0 +1,20 @@
+p { color: black; }
+#toggle { display: none; }
+.site-background { background-color: #ccc; }
+
+/*Header Footer*/
+.on-top { width: 100%; position: fixed!important; z-index: 20; }
+.footer-text { margin-bottom: 5px; text-align: center; font-weight: bold; }
+.page-footer { width: 100%; padding-top: 10px; }
+
+/*Home*/
+.home-container { width: 100%; padding-top: 50px; }
+.home-banner { text-align: center; padding: 2rem!important; margin-bottom: 0px!important; }
+.col { padding: 20px; text-align: center; }
+
+/*Pages*/
+.carousel-size { height: 830px; }
+.game-container { width: 100%; }
+.blog-background { background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); padding: 40px; margin: 2rem; }
+.game-img { height: 520px; width: 900px; padding: 10px 0; margin-left:auto; margin-right: auto; width:50%; display: block; }
+.blog-container {  }

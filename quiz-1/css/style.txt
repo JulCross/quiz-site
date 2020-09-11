@@ -1,0 +1,24 @@
+p { color: black; }
+/*Header Footer*/
+.banner-container { text-align:center; background-color: rgba(183,218,172,0.5)!important; margin-bottom: 0!important; }
+.footer-text { margin-bottom: 5px; text-align: center; font-weight: bold; }
+.home-button { color: black; }
+.page-footer { width: 100%; padding-top: 10px; }
+.site-background { background-color: #99C68E; }
+
+/*Home*/
+.home-container { background-color: #73966b; }
+.home-row {  height: 64%; width: 100%;  }
+.home-row-1 { height: 64%; width: 100%; }
+.home-text-container { padding: 20px 25px; float:left; text-align: center;  }
+.home-image { width: 100%; padding: 20px 50px;  }
+.quote-container { padding: 10px 0; background: #67A37D; border-radius: 50px; }
+
+/*Gallery*/
+
+
+/*About*/
+.about-container { height: 600px; width: 95%; padding: 50px; margin: 50px; background-color: #67A37D; border-radius: 50px!important; }
+.about-tab-container { border-radius: 50px!important; border-radius: 5px!important; }
+.about-tab-container p { margin: 0!important; }
+.about-tab-list { width: 95%; margin-left: 40px!important; margin-top: 10px!important; }
