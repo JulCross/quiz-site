@@ -1,0 +1,68 @@
+p { color: black; }
+body { background-image: url("img/bg.png"); background-repeat: repeat; }
+span { font-size: 80px; }
+.load { display: none; }
+.footer-text { font-size: 24px; }
+.page-footer { margin: 0 auto; }
+
+.header-welcome,
+.header-name { margin: 0 auto; text-align: center; padding-top: 15em; padding-bottom: 25em; }
+.tab { text-align: center; width: 1280px; max-width: 100%; overflow: hidden; box-sizing: border-box;
+	 margin: 0px auto 0; margin-bottom: 50px; padding: 40px; }
+.tab:after { content:""; display: block; clear: both; }
+.tab-slot { text-align: center; width: 1280px; max-width: 100%; overflow: hidden; box-sizing: border-box; margin: 0px auto 0; padding: 0 40px; }
+.tab-slot:after { content:""; display: block; clear: both; }
+.box-field { width: 100%; margin: 0 auto; }
+
+.grid-item { width: 50%;
+	padding: 30px 50px 60px;
+    min-height: 500px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    transition: transform 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+
+.grid-item:hover { transition: transform 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+ 	transform: scale3D(1.04, 1.04, 1);
+ 	z-index: 10; }
+
+.grid-wide-item { width: 100%;
+	padding: 30px 50px 60px;
+    min-height: 500px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    transition: transform 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+.grid-wide-item:hover { 
+	transition: transform 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transform: scale3D(1.04, 1.04, 1); z-index: 10;
+     }
+.grid-header { font-size: 46px;
+    line-height: 1.3em;
+    margin: 60px auto 0.65em;
+    font-weight: 800;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    max-width: 680px;
+    z-index: 10;
+    letter-spacing: -0.3px;
+     }
+.grid-text { margin: 0 auto 40px; width: 80%; max-width: 500px; }
+.grid-logo { margin: 0 auto; width: 200px; height: 200px; padding: 10px; }
+
+
